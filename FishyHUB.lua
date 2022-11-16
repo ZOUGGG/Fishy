@@ -69,7 +69,7 @@ Toggles.MyToggle:SetValue(false)
 -- Arguments: Text, Callback
 
 local MyButton = LeftGroupBox:AddButton('Button', function()
-    print('game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50')
+    print('TEST')
 end)
 
 -- Button:AddButton
@@ -77,7 +77,7 @@ end)
 -- Adds a sub button to the side of the main button
 
 local MyButton2 = MyButton:AddButton('Sub button', function()
-    print('You clicked a sub button!')
+    print('game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150')
 end)
 
 -- Button:AddTooltip
