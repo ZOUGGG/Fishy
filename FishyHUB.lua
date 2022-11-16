@@ -77,7 +77,7 @@ end)
 -- Adds a sub button to the side of the main button
 
 local MyButton2 = MyButton:AddButton('Sub button', function()
-    print('game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150')
+    print('Functions.game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150')
 end)
 
 -- Button:AddTooltip
