@@ -43,7 +43,7 @@ local Tab2 = TabBox:AddTab('Tab 2')
 -- Groupbox:AddToggle
 -- Arguments: Index, Options
 LeftGroupBox:AddToggle('MyToggle', {
-    Text = 'This is a toggle',
+    Text = 'SafeAimbot',
     Default = true, -- Default value (true / false)
     Tooltip = 'This is a tooltip', -- Information shown when you hover over the toggle
 })
@@ -69,7 +69,7 @@ Toggles.MyToggle:SetValue(false)
 -- Arguments: Text, Callback
 
 local MyButton = LeftGroupBox:AddButton('Button', function()
-    print('You clicked a button!')
+    print('game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50')
 end)
 
 -- Button:AddButton
